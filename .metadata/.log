@@ -1,0 +1,555 @@
+!SESSION 2017-09-11 19:45:49.486 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -perspective com.pat.tool.keditor.perspective.KonyPerspective -application org.eclipse.ui.ide.workbench -product com.kony.ide.paas.branding.studio
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.pat.tool.keditor.perspective.KonyPerspective -application org.eclipse.ui.ide.workbench -product com.kony.ide.paas.branding.studio
+
+!ENTRY org.eclipse.ui 2 0 2017-09-11 19:47:51.028
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-09-11 19:47:51.028
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='com.pat.tool.keditor', id='com.pat.tool.keditor.cleanAndBuildCommand'
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-09-11 19:47:51.028
+!MESSAGE Cannot bind to an undefined command: plug-in='com.pat.tool.keditor', id='com.pat.tool.keditor.applicationpublish'
+
+!ENTRY com.kony.ide.paas.branding 1 0 2017-09-11 19:48:04.763
+!MESSAGE Time taken for loading Studio plugin: 13595
+
+!ENTRY com.kony.ide.paas.branding 1 0 2017-09-11 19:48:51.156
+!MESSAGE Time taken for loading node plugins: 46393
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-09-11 19:49:38.158
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-09-11 19:49:38.174
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\almirakhonsa'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.updatesite 4 1002 2017-09-11 19:49:42.893
+!MESSAGE Error reading update site http://download.kony.com/studio/70.
+!STACK 0
+org.xml.sax.SAXException: The XML stream is not a valid default "site.xml" file. The root tag is not site.
+	at org.eclipse.equinox.internal.p2.updatesite.DefaultSiteParser.handleInitialState(DefaultSiteParser.java:463)
+	at org.eclipse.equinox.internal.p2.updatesite.DefaultSiteParser.startElement(DefaultSiteParser.java:886)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at org.eclipse.equinox.internal.p2.updatesite.DefaultSiteParser.parse(DefaultSiteParser.java:541)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.load(UpdateSite.java:152)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.initializeRepository(UpdateSiteMetadataRepositoryFactory.java:100)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:59)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:150)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:128)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:72)
+
+!ENTRY com.pat.tool.keditor 4 0 2017-09-11 19:49:52.534
+!MESSAGE Connection refused: connect
+!STACK 0
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(Unknown Source)
+	at com.kony.studio.browser.api.AbstractRequest.doPost(AbstractRequest.java:21)
+	at com.kony.studio.browser.api.ProjectInformationRequest.getVizVersionDetails(ProjectInformationRequest.java:107)
+	at com.kony.studio.StudioContext.readVisualizerVersionInfo(StudioContext.java:239)
+	at com.kony.studio.StudioContext.setCurrentGAVersion(StudioContext.java:197)
+	at com.pat.tool.keditor.KEditorPlugin.prepareStudioContext(KEditorPlugin.java:452)
+	at com.pat.tool.keditor.KEditorPlugin.start(KEditorPlugin.java:518)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:702)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:300)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:478)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:109)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:229)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1212)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.registry.PerspectiveDescriptor.createFactory(PerspectiveDescriptor.java:74)
+	at org.eclipse.ui.internal.WorkbenchPage.setPerspective(WorkbenchPage.java:3906)
+	at org.eclipse.ui.internal.Workbench.showPerspective(Workbench.java:2875)
+	at org.eclipse.ui.internal.Workbench.showPerspective(Workbench.java:2815)
+	at com.kony.ide.paas.branding.KonyStudioStartup$1.run(Unknown Source)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:164)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:158)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:49:52.549
+!MESSAGE Found installation dir: C:\KonyVisualizerEnterprise7.3.0\Kony_Visualizer_Enterprise
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:10.128
+!MESSAGE Found installation dir: C:\KonyVisualizerEnterprise7.3.0\Kony_Visualizer_Enterprise
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:10.144
+!MESSAGE Both are same.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:10.206
+!MESSAGE Eclipse opened time: Sep 11, 2017 19:50 PM
+
+!ENTRY com.pat.tool.keditor 2 0 2017-09-11 19:50:10.597
+!MESSAGE G:\Android SDK Tools 25.2.5 does not exists on the file system.
+
+!ENTRY com.pat.tool.keditor 2 0 2017-09-11 19:50:10.597
+!MESSAGE blackberry_50 key does not exist in the globalpreferences.json file.
+
+!ENTRY com.pat.tool.keditor 2 0 2017-09-11 19:50:10.613
+!MESSAGE blackberry_60 key does not exist in the globalpreferences.json file.
+
+!ENTRY com.pat.tool.keditor 2 0 2017-09-11 19:50:10.628
+!MESSAGE blackberry_70 key does not exist in the globalpreferences.json file.
+
+!ENTRY com.pat.tool.keditor 2 0 2017-09-11 19:50:10.644
+!MESSAGE windows_phone key does not exist in the globalpreferences.json file.
+
+!ENTRY com.pat.tool.keditor 2 0 2017-09-11 19:50:10.660
+!MESSAGE enableMetrics key does not exist in the globalpreferences.json file.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:10.800
+!MESSAGE PLUGIN DETAILS: com.kony.windows:7.3.0.GA_v201704051547::true
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:10.816
+!MESSAGE PLUGIN DETAILS: com.pat.j2me:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:10.832
+!MESSAGE PLUGIN DETAILS: com.kony.bb10:7.3.0.GA_v201704051612::true
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:10.847
+!MESSAGE PLUGIN DETAILS: com.pat.winmobile:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:10.863
+!MESSAGE PLUGIN DETAILS: com.kony.windowsphone8:7.3.0.GA_v201704051603::true
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:10.863
+!MESSAGE PLUGIN DETAILS: com.kony.windowsphone8:7.3.0.GA_v201704051603::true
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:10.878
+!MESSAGE PLUGIN DETAILS: com.kony.windows8:7.3.0.GA_v201704051504::true
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:10.894
+!MESSAGE PLUGIN DETAILS: com.kony.windows10:7.3.0.GA_v201704051536::true
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:10.910
+!MESSAGE PLUGIN DETAILS: com.pat.winmobile6x:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:11.003
+!MESSAGE PLUGIN DETAILS: com.pat.android:7.3.0.GA_v201704051455::true
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:11.066
+!MESSAGE PLUGIN DETAILS: com.pat.tabrcandroid:7.3.0.GA_v201704051455::true
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:11.066
+!MESSAGE PLUGIN DETAILS: com.kony.nativecodegen:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:11.144
+!MESSAGE PLUGIN DETAILS: com.kony.spa:7.3.0.GA_v201704051459::true
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:11.144
+!MESSAGE PLUGIN DETAILS: com.kony.desktopweb:7.3.0.GA_v201704051536::true
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:11.160
+!MESSAGE PLUGIN DETAILS: com.kony.webcommons:7.3.0.GA_v201704051354::true
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:11.175
+!MESSAGE PLUGIN DETAILS: com.kony.ios:7.3.0.GA_v201704051545::true
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:11.191
+!MESSAGE USER LOCATION: file:/C:/Users/almirakhonsa/user/
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:11.207
+!MESSAGE IDE BUNDLE LOCATION: /C:/KonyVisualizerEnterprise7.3.0/Kony_Visualizer_Enterprise/configuration/org.eclipse.osgi/bundles/483/1/.cp/
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:12.238
+!MESSAGE 'com.kony.help' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:12.253
+!MESSAGE 'com.kony.nativecodegen' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:12.378
+!MESSAGE 'com.kony.cloudtc' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:12.519
+!MESSAGE 'com.kony.studio.viz.chrome.mac64' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:12.550
+!MESSAGE 'com.kony.studio.viz.core.mac64' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:12.550
+!MESSAGE 'com.kony.studio.viz.nodejs.mac64' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:12.582
+!MESSAGE 'com.pat.j2me' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:12.613
+!MESSAGE 'com.pat.winmobile' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:12.675
+!MESSAGE 'com.pat.winmobile6x' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:12.691
+!MESSAGE 'com.pat.brew' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:12.707
+!MESSAGE 'com.pat.palm' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:12.753
+!MESSAGE 'com.pat.playbook' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:12.785
+!MESSAGE 'com.pat.qt' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:12.785
+!MESSAGE 'com.pat.andcodeinjection' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:12.800
+!MESSAGE 'com.pat.bbcodeinjection' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:12.800
+!MESSAGE 'com.pat.iospolicyinjection' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:12.894
+!MESSAGE 'tk.eclipse.plugin.htmleditor' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:12.910
+!MESSAGE 'com.kony.video' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:12.972
+!MESSAGE Plugin Details are stored successfully at F:\KonyProject\HivingApp\konyplugins.xml.
+
+!ENTRY com.pat.tool.keditor 2 0 2017-09-11 19:50:17.847
+!MESSAGE Android Home is not found
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:30.765
+!MESSAGE Node server shut down successfull.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:30.765
+!MESSAGE workspace location: F:\KonyProject\HivingApp
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:31.250
+!MESSAGE Node location: C:\KonyVisualizerEnterprise7.3.0\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\471\1\.cp\node\win64\v4.2.4\node.exe
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:31.250
+!MESSAGE Node start location: C:\KonyVisualizerEnterprise7.3.0\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\471\1\.cp\node\node_start.bat
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:35.437
+!MESSAGE Starting node server...
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:35.437
+!MESSAGE Executing node startup command: C:\KonyVisualizerEnterprise7.3.0\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\471\1\.cp\node\win64\v4.2.4\node.exe app.js console F:\KonyProject\HivingApp C:\Users\almirakhonsa\Kony Visualizer C:\KonyVisualizerEnterprise7.3.0\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\471\1\.cp\node\win64\v4.2.4\node.exe --NODE_APP_INSTANCE=vide --NODE_CONFIG={\"transfer\":{\"codeanalysis\":{\"serverport\":5230}},\"codeanalysis\":{\"serverport\":5230},\"expressServerPort\":5000,\"functionalPreviewPort\":8888,\"vizClientConfig\":{\"enableNativeApi\":true,\"enableModelDriven\":false,\"enableOrientation\":false,\"enableCordovaDevelopment\":true,\"enableMarketplace\":false}} 
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:35.594
+!MESSAGE Time for node to execute : 141msec
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:35.640
+!MESSAGE ***Started watch for node server...
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:41.188
+!MESSAGE [node console]Loading[config]..C:\KonyVisualizerEnterprise7.3.0\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\470\1\.cp\konywebstudio\config\default.js
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:50:41.219
+!MESSAGE [node console]Proxy details not found. Setting useProxy to false.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:12.917
+!MESSAGE [node console]GitDir: C:\Users\almirakhonsa\Kony Visualizer\vizdata\.konyvizgit
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:14.449
+!MESSAGE [node console]Viz running in EMBEDDED mode
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:16.261
+!MESSAGE [node console][32m[2017-09-11 19:51:16.261] [INFO] vide - [39mPorting project[Sample] in workspace [F:\KonyProject\HivingApp] from_version[sprint22], to_version[sprint27]
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:16.277
+!MESSAGE [node console][32m[2017-09-11 19:51:16.261] [INFO] vide - [39mPorting [Sample] from sprint22 to sprint23.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:16.293
+!MESSAGE [node console][32m[2017-09-11 19:51:16.261] [INFO] vide - [39mPorting [Sample] to sprint23, is completed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:16.308
+!MESSAGE [node console][32m[2017-09-11 19:51:16.261] [INFO] vide - [39mPorting [Sample] from sprint23 to sprint24.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:16.433
+!MESSAGE [node console][36m[2017-09-11 19:51:16.433] [DEBUG] vide - [39mPort self-sufficient moudles if exists...
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:16.449
+!MESSAGE [node console][36m[2017-09-11 19:51:16.433] [DEBUG] vide - [39mportSsmModules: 'F:\KonyProject\HivingApp\Sample\selfsufficientmodules' doesn't exist. 
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:16.464
+!MESSAGE [node console]Nothing to port.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:16.480
+!MESSAGE [node console][32m[2017-09-11 19:51:16.433] [INFO] vide - [39mPorting [Sample] to sprint24, is completed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:16.496
+!MESSAGE [node console][32m[2017-09-11 19:51:16.433] [INFO] vide - [39mPorting [Sample] from sprint24 to sprint25.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:16.511
+!MESSAGE [node console][32m[2017-09-11 19:51:16.448] [INFO] vide - [39mPorting [Sample] to sprint25, is completed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:16.527
+!MESSAGE [node console][32m[2017-09-11 19:51:16.448] [INFO] vide - [39mPorting [Sample] from sprint25 to sprint26.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:16.543
+!MESSAGE [node console][32m[2017-09-11 19:51:16.464] [INFO] vide - [39mPorting [Sample] to sprint26, is completed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:16.558
+!MESSAGE [node console][32m[2017-09-11 19:51:16.464] [INFO] vide - [39mPorting [Sample] to sprint27, is completed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:23.206
+!MESSAGE [node console][36m[2017-09-11 19:51:23.206] [DEBUG] vide - [39mIn pullWelcomeScreen ...
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:23.300
+!MESSAGE [node console][36m[2017-09-11 19:51:23.284] [DEBUG] vide - [39mDownload welcome screen: http://download.kony.com/installer/visualizer/WelcomeScreen7300/enterprise-WelcomeScreen7300.zip
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:23.378
+!MESSAGE [node console][36m[2017-09-11 19:51:23.378] [DEBUG] vide - [39mRequesting File from http://download.kony.com/installer/visualizer/WelcomeScreen7300/enterprise-WelcomeScreen7300.zip
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:26.035
+!MESSAGE Node Server state :true
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:26.128
+!MESSAGE javaLibPath->C:\KonyVisualizerEnterprise7.3.0\Kony_Visualizer_Enterprise;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/KonyVisualizerEnterprise7.3.0/Kony_Visualizer_Enterprise/jre/bin/server;C:/KonyVisualizerEnterprise7.3.0/Kony_Visualizer_Enterprise/jre/bin;C:/KonyVisualizerEnterprise7.3.0/Kony_Visualizer_Enterprise/jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\runtime\win64;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\polyspace\bin;C:\Program Files\Java\jdk1.8.0_65\bin;C:\FPC\3.0.2\bin\i386-Win32;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Users\almirakhonsa\Anaconda3;C:\Users\almirakhonsa\Anaconda3\Scripts;C:\Users\almirakhonsa\Anaconda3\Library\bin;C:\Users\almirakhonsa\AppData\Local\Microsoft\WindowsApps;C:\Users\almirakhonsa\AppData\Roaming\Composer\vendor\bin;;C:\KonyVisualizerEnterprise7.3.0\ImageMagick;C:\KonyVisualizerEnterprise7.3.0\Ant\bin;G:\Android SDK Tools 25.2.5\platform-tools;G:\Android SDK Tools 25.2.5\tools;C:\KonyVisualizerEnterprise7.3.0\Java\jdk1.8.0_112\bin;C:\KonyVisualizerEnterprise7.3.0\Kony_Visualizer_Enterprise;;.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:26.160
+!MESSAGE DYLD_LIBRARY_PATH(Only in Mac)->null
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:26.175
+!MESSAGE JAVACEF_PATH->C:\KonyVisualizerEnterprise7.3.0/Kony_Visualizer_Enterprise
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:26.191
+!MESSAGE Invoking windows configure libs
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:29.800
+!MESSAGE Chrome lib location->C:\KonyVisualizerEnterprise7.3.0\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\469\1\.cp\win64_build\third_party\chromium_loader
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:29.816
+!MESSAGE CEF lib location->C:\KonyVisualizerEnterprise7.3.0\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\469\1\.cp\win64_build\third_party\cef_runtime\win64
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:29.832
+!MESSAGE java.library.path->C:\KonyVisualizerEnterprise7.3.0\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\469\1\.cp\win64_build\third_party\chromium_loader;C:\KonyVisualizerEnterprise7.3.0\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\469\1\.cp\win64_build\third_party\cef_runtime\win64
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:29.847
+!MESSAGE fieldSysPath->private static java.lang.String[] java.lang.ClassLoader.sys_paths
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:29.863
+!MESSAGE java.library.path configured
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:29.878
+!MESSAGE Invoking chromebrowser.embed()
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:40.309
+!MESSAGE Invoking vide init()
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:51:40.309
+!MESSAGE Invoking vide initiated
+
+!ENTRY org.eclipse.ui 4 0 2017-09-11 19:51:49.185
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4397)
+	at org.eclipse.swt.SWT.error(SWT.java:4312)
+	at org.eclipse.swt.SWT.error(SWT.java:4283)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:472)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:344)
+	at org.eclipse.swt.widgets.Text.getText(Text.java:1345)
+	at org.eclipse.ui.internal.quickaccess.QuickAccessContents$4$1.run(QuickAccessContents.java:550)
+	at org.eclipse.swt.widgets.Display.runTimer(Display.java:4271)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3358)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 19:53:26.534
+!MESSAGE [node console]Initial scan complete. Ready for changes.
+
+!ENTRY com.pat.tool.keditor 4 0 2017-09-11 19:53:38.629
+!MESSAGE Connection to https://api.kony.com refused
+!STACK 0
+org.apache.http.conn.HttpHostConnectException: Connection to https://api.kony.com refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:190)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:294)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:645)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:480)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+	at com.kony.studio.Proxy.excute(Proxy.java:84)
+	at com.kony.studio.Proxy.excute(Proxy.java:53)
+	at com.kony.accounts.util.KonyAccountsAuthHelper.getResource_with_AccessToken(KonyAccountsAuthHelper.java:511)
+	at com.kony.accounts.util.CloudAccountParser.getAccounts(CloudAccountParser.java:18)
+	at com.kony.accounts.util.KonyAccountsAuthHelper.refreshAccounts(KonyAccountsAuthHelper.java:465)
+	at com.pat.tool.keditor.paas.KonyPaasUtil$3.run(KonyPaasUtil.java:222)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:549)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	... 13 more
+
+!ENTRY com.pat.tool.keditor 4 0 2017-09-11 19:54:18.073
+!MESSAGE Not able to reach server running at the URL mentioned.
+!STACK 0
+java.lang.Exception: Not able to reach server running at the URL mentioned.
+	at com.pat.tool.keditor.mfintegration.MobileFabricUtils.validateMFInstance(MobileFabricUtils.java:834)
+	at com.kony.studio.browser.services.ValidateMFInstanceService.execute(ValidateMFInstanceService.java:30)
+	at com.kony.studio.browser.services.ServiceHandlerRouter.handle(ServiceHandlerRouter.java:134)
+	at com.kony.studio.browser.services.VizStudioServiceRegistry$31.handle(VizStudioServiceRegistry.java:269)
+	at com.kony.studio.viz.api.handlers.Vide._onVizMessageReceived_(Unknown Source)
+	at com.kony.studio.viz.api.handlers.Vide$22.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to https://manage.kony.com refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:190)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:294)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:645)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:480)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+	at com.kony.studio.Proxy.excute(Proxy.java:84)
+	at com.kony.studio.Proxy.excute(Proxy.java:53)
+	at com.pat.tool.keditor.mfintegration.MobileFabricUtils.validateMFInstance(MobileFabricUtils.java:808)
+	... 8 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:549)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	... 16 more
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 20:04:53.580
+!MESSAGE Project got saved: {"MSG_ID":59,"MSG_TYPE":"RESPONSE","CURRENT_PROJECT_NAME":"Sample","ORIGINAL_REQUEST":{"SERVICE_NAME":"SAVE_PROJECT","MSG_ID":59,"MSG_TYPE":"REQUEST","DATA":{"checkLicense":false}},"CURRENT_PROJECT_CATEGORY":"app","status":{"code":200}}
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 20:14:22.049
+!MESSAGE Project got saved: {"MSG_ID":73,"MSG_TYPE":"RESPONSE","CURRENT_PROJECT_NAME":"Sample","ORIGINAL_REQUEST":{"SERVICE_NAME":"SAVE_PROJECT","MSG_ID":73,"MSG_TYPE":"REQUEST","DATA":{"checkLicense":false}},"CURRENT_PROJECT_CATEGORY":"app","status":{"code":200}}
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 20:16:50.297
+!MESSAGE Project got saved: {"MSG_ID":87,"MSG_TYPE":"RESPONSE","CURRENT_PROJECT_NAME":"Sample","ORIGINAL_REQUEST":{"SERVICE_NAME":"SAVE_PROJECT","MSG_ID":87,"MSG_TYPE":"REQUEST","DATA":{"checkLicense":false}},"CURRENT_PROJECT_CATEGORY":"app","status":{"code":200}}
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 20:31:04.491
+!MESSAGE Project got saved: {"MSG_ID":101,"MSG_TYPE":"RESPONSE","CURRENT_PROJECT_NAME":"Sample","ORIGINAL_REQUEST":{"SERVICE_NAME":"SAVE_PROJECT","MSG_ID":101,"MSG_TYPE":"REQUEST","DATA":{"checkLicense":false}},"CURRENT_PROJECT_CATEGORY":"app","status":{"code":200}}
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 20:32:45.402
+!MESSAGE Project got saved: {"MSG_ID":115,"MSG_TYPE":"RESPONSE","CURRENT_PROJECT_NAME":"Sample","ORIGINAL_REQUEST":{"SERVICE_NAME":"SAVE_PROJECT","MSG_ID":115,"MSG_TYPE":"REQUEST","DATA":{"checkLicense":false}},"CURRENT_PROJECT_CATEGORY":"app","status":{"code":200}}
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 20:37:21.421
+!MESSAGE Project got saved: {"MSG_ID":129,"MSG_TYPE":"RESPONSE","CURRENT_PROJECT_NAME":"Sample","ORIGINAL_REQUEST":{"SERVICE_NAME":"SAVE_PROJECT","MSG_ID":129,"MSG_TYPE":"REQUEST","DATA":{"checkLicense":false}},"CURRENT_PROJECT_CATEGORY":"app","status":{"code":200}}
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 20:38:22.681
+!MESSAGE [node console]Initial scan complete. Ready for changes.
