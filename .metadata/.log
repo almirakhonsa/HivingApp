@@ -553,3 +553,9 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 
 !ENTRY com.pat.tool.keditor 1 0 2017-09-11 20:38:22.681
 !MESSAGE [node console]Initial scan complete. Ready for changes.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 21:34:58.601
+!MESSAGE Project got saved: {"MSG_ID":202,"MSG_TYPE":"RESPONSE","CURRENT_PROJECT_NAME":"HivingApp","ORIGINAL_REQUEST":{"SERVICE_NAME":"SAVE_PROJECT","MSG_ID":202,"MSG_TYPE":"REQUEST","DATA":{"checkLicense":false}},"CURRENT_PROJECT_CATEGORY":"app","status":{"code":200}}
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 22:14:43.315
+!MESSAGE Project got saved: {"MSG_ID":218,"MSG_TYPE":"RESPONSE","CURRENT_PROJECT_NAME":"HivingApp","ORIGINAL_REQUEST":{"SERVICE_NAME":"SAVE_PROJECT","MSG_ID":218,"MSG_TYPE":"REQUEST","DATA":{"checkLicense":false}},"CURRENT_PROJECT_CATEGORY":"app","status":{"code":200}}
