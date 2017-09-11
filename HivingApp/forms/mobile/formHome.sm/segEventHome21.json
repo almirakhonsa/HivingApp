@@ -4,39 +4,39 @@
     "__parentReadjusting__": false,
     "_data_": [
         {
-            "Image0d0e8254dc0f043": {
+            "imgEvent": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
                 "src": "imagedrag.png"
             },
-            "Image0ib21590bd27c4f": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+            "lblTitleEvent": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Title Event"
             }
         },
         {
-            "Image0d0e8254dc0f043": {
+            "imgEvent": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
                 "src": "imagedrag.png"
             },
-            "Image0ib21590bd27c4f": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+            "lblTitleEvent": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
             }
         },
         {
-            "Image0d0e8254dc0f043": {
+            "imgEvent": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
                 "src": "imagedrag.png"
             },
-            "Image0ib21590bd27c4f": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+            "lblTitleEvent": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
             }
         }
     ],
     "_height_": {
         "type": "string",
-        "value": "210dp"
+        "value": "100%"
     },
     "_indicator_": "none",
     "_left_": {
@@ -68,12 +68,13 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "counter": "02",
+    "disabledSkins": {},
     "focusedindex": null,
     "focuseditem": null,
-    "generatedtemplate": "a2bd2409d2294857bd603dfcca055b5e",
+    "generatedtemplate": "gd6c6dd887124dbb97ede70e579e0790",
     "groupcells": false,
     "hasSections": false,
-    "id": "segIconPlace",
+    "id": "segEventHome21",
     "info": null,
     "ipad": {
         "psp": {
@@ -82,47 +83,53 @@
     },
     "iphone": {
         "psp": {
-            "indicator": "rowselect"
+            "indicator": "rowselect",
+            "showProgressIndicator": true
         }
     },
     "isvisible": true,
-    "kuid": "a2d2ce14edda4792aa8d43f6599891a2",
+    "kuid": "e96ca8619fa946fe8a6ff0daf0c4dea1",
     "masterdata": {},
     "name": "kony.ui.SegmentedUI2",
-    "needpageindicator": true,
+    "needpageindicator": false,
     "pageoffdotimage": "pageoffdot.png",
     "pageondotimage": "pageondot.png",
     "paginationconfig": {
-        "position": "bottom"
+        "position": "bottom",
+        "vdistance": 1
     },
-    "parent": "flxIconPlace",
-    "pf": "frmPlaceSport",
+    "parent": "flxScrollEventHome21",
+    "pf": "formHome",
     "retainselection": false,
-    "rowTemplateId": "a2bd2409d2294857bd603dfcca055b5e",
+    "rowTemplateId": "gd6c6dd887124dbb97ede70e579e0790",
     "rowcounter": 2,
-    "rowfocusskin": "sc39a8e3e39c4f829880979dadb45416",
-    "rowskin": "s30b85615b694072b8a202c11996e2c9",
-    "rowtemplate": "FBox0b0ef9f5916404a",
+    "rowfocusskin": "s01fb930b10f41b588e608cd80d44073",
+    "rowskin": "s01fb930b10f41b588e608cd80d44073",
+    "rowtemplate": "FBox0dfbc820c33ab4b",
     "screenlevelwidget": false,
     "seccounter": 0,
-    "sectionheaderskin": "s44136271dde4ebd9efaaba5c9e0a717",
+    "sectionheaderskin": "s970778e02b349b7ac20878f4d7a3947",
     "selectedRows": null,
     "selectedState": false,
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": null,
+    "selectedsectionindex": 0,
     "selectionbehavior": "default",
-    "separatorcolor": "64646400",
     "separatorrequired": true,
-    "separatorthickness": 1,
+    "showprogressindicator": true,
     "showscrollbars": false,
-    "viewtype": "tableview",
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 750,
+        "widthRatio": 0
+    },
+    "viewtype": "pageview",
     "wType": "Segment",
     "widgetalignment": 5,
     "widgetdatamap": {
-        "Image0d0e8254dc0f043": "Image0d0e8254dc0f043",
-        "Image0ib21590bd27c4f": "Image0ib21590bd27c4f"
+        "imgEvent": "imgEvent",
+        "lblTitleEvent": "lblTitleEvent"
     },
     "zindex": 1
 }

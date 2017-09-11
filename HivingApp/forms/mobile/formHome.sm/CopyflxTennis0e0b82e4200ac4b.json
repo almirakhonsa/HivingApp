@@ -1,8 +1,13 @@
 {
     "DNDConfig": null,
+    "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "60dp"
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "43.3%"
     },
     "_margin_": [
         0,
@@ -18,32 +23,33 @@
         0
     ],
     "_percent_": true,
+    "_skin_": "s3cc1d9a3ce54fd1b55c752d9d7d4342",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "33.30%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "Image0d0e8254dc0f043",
-        "Image0ib21590bd27c4f"
-    ],
-    "clipbounds": false,
-    "containerId": true,
+    "children": [],
+    "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "FBox0b0ef9f5916404a",
+    "id": "CopyflxTennis0e0b82e4200ac4b",
     "info": null,
-    "isGeneratedTemplate": true,
-    "isTemplate": true,
     "isvisible": true,
-    "kuid": "a2bd2409d2294857bd603dfcca055b5e",
+    "kuid": "e684640964cc47be90ab091d0290ab45",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "pf": "FBox0b0ef9f5916404a",
+    "parent": "flxRow1",
+    "pf": "formHome",
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1
+    "widgetalignment": 1,
+    "zindex": 1
 }
