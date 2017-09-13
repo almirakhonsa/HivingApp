@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "10%"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "0"
     },
     "_margin_": [
         0,
@@ -23,35 +23,37 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s3cc1d9a3ce54fd1b55c752d9d7d4342",
+    "_skin_": "s7e3c8517eaa40a3b31d0967053b13b0",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "0"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
     "allboxes": [],
+    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "header1",
-        "flxHome21"
+        "flxHome",
+        "flxPlaceSport",
+        "flxNews",
+        "flxMyAccount"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxScrHome",
+    "id": "flxHeader",
     "info": null,
     "isvisible": true,
-    "kuid": "g8c47188a3d94b6d8f74f29273afec45",
-    "layouttype": 4,
+    "kuid": "c4c476f4a90840ff88f7b0d72b06481b",
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "formHome",
-    "pf": "formHome",
+    "parent": "header",
+    "pf": "userwidgetmodel",
     "snapgridsize": 10,
     "snaptogrid": true,
-    "vizProps": {},
     "wType": "FlexContainer",
     "widgetalignment": 1
 }
