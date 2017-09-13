@@ -35,23 +35,24 @@
     "allboxes": [],
     "canUpdateUI": true,
     "children": [
-        "header1",
-        "flxHome21"
+        "flxHeader"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxScrHome",
+    "id": "header",
     "info": null,
     "isvisible": true,
-    "kuid": "g8c47188a3d94b6d8f74f29273afec45",
-    "layouttype": 4,
+    "kuid": "e899a9c0817442738da42868ba434220",
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "formHome",
-    "pf": "formHome",
+    "parent": "userwidgetmodel",
+    "pf": "userwidgetmodel",
     "snapgridsize": 10,
     "snaptogrid": true,
-    "vizProps": {},
+    "vizProps": {
+        "hidewidgethierarchy": false
+    },
     "wType": "FlexContainer",
     "widgetalignment": 1
 }

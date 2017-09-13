@@ -76,6 +76,7 @@
     "hasSections": false,
     "id": "segEventHome21",
     "info": null,
+    "invokedProperty": "pageOnDotImage",
     "ipad": {
         "psp": {
             "indicator": "rowselect"

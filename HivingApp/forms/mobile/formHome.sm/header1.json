@@ -1,0 +1,127 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": "10%",
+    "_left_": "0dp",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s3cc1d9a3ce54fd1b55c752d9d7d4342",
+    "_top_": "0dp",
+    "_width_": "100%",
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "flxHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dab9358accf04ec5aad2a8d429c470a8",
+                "srcKUID": "c4c476f4a90840ff88f7b0d72b06481b",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxHome": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j55ed3a6bf164d2dbe115edb1b823a53",
+                "srcKUID": "i514e8e5a3594bcb83cef4a362aa65a7",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxMyAccount": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c14a3059efb8440aa3376613c7da08ed",
+                "srcKUID": "edd93d393c1d460696213d67c34d6118",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxNews": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f42160b06d36400a894c3b33bbc8b30c",
+                "srcKUID": "ae11cae9c52b465d90d7efd94ac7cd7f",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPlaceSport": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j763417bf9b247c9a8dd71252c6bd150",
+                "srcKUID": "a3532c7aa6e243d18b2b992d2e689570",
+                "wType": "FlexContainer"
+            }
+        },
+        "header": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "e6800d250c2244db95f8f272f715e607",
+                "srcKUID": "e899a9c0817442738da42868ba434220",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgHome": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f3f36c982beb486a99d656e353cfcffc",
+                "srcKUID": "cb7e633a147546d797435f8cda0bf4d0",
+                "wType": "Image"
+            }
+        },
+        "imgMyAccount": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ifa4de65b08c4d35bfde41c3d7cc3c05",
+                "srcKUID": "a8adeb4e7dea42799d0c907450d60393",
+                "wType": "Image"
+            }
+        },
+        "imgNews": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gc62fc4031ac4eb995e530e87e09ffe7",
+                "srcKUID": "f22e08b6d468418e96b9f80d0bfc380d",
+                "wType": "Image"
+            }
+        },
+        "imgPlaceSport": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d0edc0a306d443d0b6e5f23b3eaf7049",
+                "srcKUID": "a44d29070c3945a7b1b4e4998ee2f03d",
+                "wType": "Image"
+            }
+        }
+    },
+    "id": "header1",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "e6800d250c2244db95f8f272f715e607",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxScrHome",
+    "pf": "formHome",
+    "snaptogrid": true,
+    "sourceUserWidget": "e899a9c0817442738da42868ba434220",
+    "wType": "UserWidgetInstance"
+}
