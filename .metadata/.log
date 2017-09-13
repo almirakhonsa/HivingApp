@@ -559,3 +559,411 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 
 !ENTRY com.pat.tool.keditor 1 0 2017-09-11 22:14:43.315
 !MESSAGE Project got saved: {"MSG_ID":218,"MSG_TYPE":"RESPONSE","CURRENT_PROJECT_NAME":"HivingApp","ORIGINAL_REQUEST":{"SERVICE_NAME":"SAVE_PROJECT","MSG_ID":218,"MSG_TYPE":"REQUEST","DATA":{"checkLicense":false}},"CURRENT_PROJECT_CATEGORY":"app","status":{"code":200}}
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 22:23:35.808
+!MESSAGE Project got saved: {"MSG_ID":248,"MSG_TYPE":"RESPONSE","CURRENT_PROJECT_NAME":"HivingApp","ORIGINAL_REQUEST":{"SERVICE_NAME":"SAVE_PROJECT","MSG_ID":248,"MSG_TYPE":"REQUEST","DATA":{"checkLicense":false}},"CURRENT_PROJECT_CATEGORY":"app","status":{"code":200}}
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 22:23:44.277
+!MESSAGE Node process exit code: 1
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-11 22:23:44.285
+!MESSAGE Node server shut down sucessful.
+!SESSION 2017-09-13 19:38:00.104 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -perspective com.pat.tool.keditor.perspective.KonyPerspective -application org.eclipse.ui.ide.workbench -product com.kony.ide.paas.branding.studio
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.pat.tool.keditor.perspective.KonyPerspective -application org.eclipse.ui.ide.workbench -product com.kony.ide.paas.branding.studio
+
+!ENTRY org.eclipse.ui 2 0 2017-09-13 19:38:19.677
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-09-13 19:38:19.677
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='com.pat.tool.keditor', id='com.pat.tool.keditor.cleanAndBuildCommand'
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-09-13 19:38:19.677
+!MESSAGE Cannot bind to an undefined command: plug-in='com.pat.tool.keditor', id='com.pat.tool.keditor.applicationpublish'
+
+!ENTRY com.kony.ide.paas.branding 1 0 2017-09-13 19:38:26.481
+!MESSAGE Time taken for loading Studio plugin: 6603
+
+!ENTRY com.kony.ide.paas.branding 1 0 2017-09-13 19:39:12.714
+!MESSAGE Time taken for loading node plugins: 46233
+
+!ENTRY com.pat.tool.keditor 4 0 2017-09-13 19:40:17.447
+!MESSAGE Connection refused: connect
+!STACK 0
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(Unknown Source)
+	at com.kony.studio.browser.api.AbstractRequest.doPost(AbstractRequest.java:21)
+	at com.kony.studio.browser.api.ProjectInformationRequest.getVizVersionDetails(ProjectInformationRequest.java:107)
+	at com.kony.studio.StudioContext.readVisualizerVersionInfo(StudioContext.java:239)
+	at com.kony.studio.StudioContext.setCurrentGAVersion(StudioContext.java:197)
+	at com.pat.tool.keditor.KEditorPlugin.prepareStudioContext(KEditorPlugin.java:452)
+	at com.pat.tool.keditor.KEditorPlugin.start(KEditorPlugin.java:518)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:702)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:300)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:478)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:109)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:229)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1212)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.registry.ViewDescriptor.createView(ViewDescriptor.java:62)
+	at org.eclipse.ui.internal.ViewReference.createPart(ViewReference.java:111)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPart(CompatibilityPart.java:266)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:304)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:877)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:857)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:119)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:333)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:254)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:102)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:71)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:53)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:949)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:633)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$6.run(PartRenderingEngine.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:511)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:61)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:949)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:633)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:735)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:700)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:685)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:62)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:735)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:700)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:685)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:62)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:59)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:735)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:700)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:685)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:103)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:96)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:77)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:649)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:735)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:700)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:685)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:62)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:735)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:700)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:685)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:62)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:581)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:735)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:700)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:685)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1042)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:17.683
+!MESSAGE Found installation dir: C:\KonyVisualizerEnterprise7.3.0\Kony_Visualizer_Enterprise
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:28.724
+!MESSAGE Found installation dir: C:\KonyVisualizerEnterprise7.3.0\Kony_Visualizer_Enterprise
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:28.739
+!MESSAGE Both are same.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:28.824
+!MESSAGE Eclipse opened time: Sep 13, 2017 19:40 PM
+
+!ENTRY com.pat.tool.keditor 2 0 2017-09-13 19:40:30.255
+!MESSAGE G:\Android SDK Tools 25.2.5 does not exists on the file system.
+
+!ENTRY com.pat.tool.keditor 2 0 2017-09-13 19:40:30.270
+!MESSAGE blackberry_50 key does not exist in the globalpreferences.json file.
+
+!ENTRY com.pat.tool.keditor 2 0 2017-09-13 19:40:30.270
+!MESSAGE blackberry_60 key does not exist in the globalpreferences.json file.
+
+!ENTRY com.pat.tool.keditor 2 0 2017-09-13 19:40:30.289
+!MESSAGE blackberry_70 key does not exist in the globalpreferences.json file.
+
+!ENTRY com.pat.tool.keditor 2 0 2017-09-13 19:40:30.292
+!MESSAGE windows_phone key does not exist in the globalpreferences.json file.
+
+!ENTRY com.pat.tool.keditor 2 0 2017-09-13 19:40:30.292
+!MESSAGE enableMetrics key does not exist in the globalpreferences.json file.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:30.339
+!MESSAGE PLUGIN DETAILS: com.kony.windows:7.3.0.GA_v201704051547::true
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:30.339
+!MESSAGE PLUGIN DETAILS: com.pat.j2me:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:30.339
+!MESSAGE PLUGIN DETAILS: com.kony.bb10:7.3.0.GA_v201704051612::true
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:30.355
+!MESSAGE PLUGIN DETAILS: com.pat.winmobile:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:30.355
+!MESSAGE PLUGIN DETAILS: com.kony.windowsphone8:7.3.0.GA_v201704051603::true
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:30.370
+!MESSAGE PLUGIN DETAILS: com.kony.windowsphone8:7.3.0.GA_v201704051603::true
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:30.370
+!MESSAGE PLUGIN DETAILS: com.kony.windows8:7.3.0.GA_v201704051504::true
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:30.387
+!MESSAGE PLUGIN DETAILS: com.kony.windows10:7.3.0.GA_v201704051536::true
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:30.393
+!MESSAGE PLUGIN DETAILS: com.pat.winmobile6x:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:30.408
+!MESSAGE PLUGIN DETAILS: com.pat.android:7.3.0.GA_v201704051455::true
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:30.439
+!MESSAGE PLUGIN DETAILS: com.pat.tabrcandroid:7.3.0.GA_v201704051455::true
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:30.455
+!MESSAGE PLUGIN DETAILS: com.kony.nativecodegen:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:30.490
+!MESSAGE PLUGIN DETAILS: com.kony.spa:7.3.0.GA_v201704051459::true
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:30.493
+!MESSAGE PLUGIN DETAILS: com.kony.desktopweb:7.3.0.GA_v201704051536::true
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:30.493
+!MESSAGE PLUGIN DETAILS: com.kony.webcommons:7.3.0.GA_v201704051354::true
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:30.508
+!MESSAGE PLUGIN DETAILS: com.kony.ios:7.3.0.GA_v201704051545::true
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:30.508
+!MESSAGE USER LOCATION: file:/C:/Users/almirakhonsa/user/
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:30.508
+!MESSAGE IDE BUNDLE LOCATION: /C:/KonyVisualizerEnterprise7.3.0/Kony_Visualizer_Enterprise/configuration/org.eclipse.osgi/bundles/483/1/.cp/
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:30.739
+!MESSAGE 'com.kony.help' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:30.739
+!MESSAGE 'com.kony.nativecodegen' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:30.839
+!MESSAGE 'com.kony.cloudtc' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:30.971
+!MESSAGE 'com.kony.studio.viz.chrome.mac64' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:31.024
+!MESSAGE 'com.kony.studio.viz.core.mac64' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:31.040
+!MESSAGE 'com.kony.studio.viz.nodejs.mac64' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:31.071
+!MESSAGE 'com.pat.j2me' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:31.092
+!MESSAGE 'com.pat.winmobile' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:31.109
+!MESSAGE 'com.pat.winmobile6x' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:31.109
+!MESSAGE 'com.pat.brew' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:31.124
+!MESSAGE 'com.pat.palm' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:31.155
+!MESSAGE 'com.pat.playbook' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:31.171
+!MESSAGE 'com.pat.qt' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:31.188
+!MESSAGE 'com.pat.andcodeinjection' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:31.193
+!MESSAGE 'com.pat.bbcodeinjection' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:31.193
+!MESSAGE 'com.pat.iospolicyinjection' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:31.240
+!MESSAGE 'tk.eclipse.plugin.htmleditor' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:31.256
+!MESSAGE 'com.kony.video' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:31.293
+!MESSAGE Plugin Details are stored successfully at F:\KonyProject\HivingApp\konyplugins.xml.
+
+!ENTRY com.pat.tool.keditor 2 0 2017-09-13 19:40:35.144
+!MESSAGE Android Home is not found
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:48.041
+!MESSAGE Node server shut down successfull.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:48.131
+!MESSAGE workspace location: F:\KonyProject\HivingApp
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:48.727
+!MESSAGE Node location: C:\KonyVisualizerEnterprise7.3.0\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\471\1\.cp\node\win64\v4.2.4\node.exe
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:48.742
+!MESSAGE Node start location: C:\KonyVisualizerEnterprise7.3.0\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\471\1\.cp\node\node_start.bat
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:54.098
+!MESSAGE Starting node server...
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:54.114
+!MESSAGE Executing node startup command: C:\KonyVisualizerEnterprise7.3.0\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\471\1\.cp\node\win64\v4.2.4\node.exe app.js console F:\KonyProject\HivingApp C:\Users\almirakhonsa\Kony Visualizer C:\KonyVisualizerEnterprise7.3.0\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\471\1\.cp\node\win64\v4.2.4\node.exe --NODE_APP_INSTANCE=vide --NODE_CONFIG={\"transfer\":{\"codeanalysis\":{\"serverport\":5230}},\"codeanalysis\":{\"serverport\":5230},\"expressServerPort\":5000,\"functionalPreviewPort\":8888,\"vizClientConfig\":{\"enableNativeApi\":true,\"enableModelDriven\":false,\"enableOrientation\":false,\"enableCordovaDevelopment\":true,\"enableMarketplace\":false}} 
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:54.198
+!MESSAGE Time for node to execute : 84msec
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:54.314
+!MESSAGE ***Started watch for node server...
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:59.577
+!MESSAGE [node console]Loading[config]..C:\KonyVisualizerEnterprise7.3.0\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\470\1\.cp\konywebstudio\config\default.js
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:40:59.624
+!MESSAGE [node console]Proxy details not found. Setting useProxy to false.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:41:23.148
+!MESSAGE [node console]GitDir: C:\Users\almirakhonsa\Kony Visualizer\vizdata\.konyvizgit
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:41:24.206
+!MESSAGE [node console]Viz running in EMBEDDED mode
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:41:24.468
+!MESSAGE [node console][36m[2017-09-13 19:41:24.406] [DEBUG] vide - [39mIn pullWelcomeScreen ...
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:41:24.591
+!MESSAGE [node console][36m[2017-09-13 19:41:24.522] [DEBUG] vide - [39mDownload welcome screen: http://download.kony.com/installer/visualizer/WelcomeScreen7300/enterprise-WelcomeScreen7300.zip
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:41:24.607
+!MESSAGE [node console][36m[2017-09-13 19:41:24.607] [DEBUG] vide - [39mRequesting File from http://download.kony.com/installer/visualizer/WelcomeScreen7300/enterprise-WelcomeScreen7300.zip
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:41:27.275
+!MESSAGE Node Server state :true
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:41:27.591
+!MESSAGE javaLibPath->C:\KonyVisualizerEnterprise7.3.0\Kony_Visualizer_Enterprise;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/KonyVisualizerEnterprise7.3.0/Kony_Visualizer_Enterprise/jre/bin/server;C:/KonyVisualizerEnterprise7.3.0/Kony_Visualizer_Enterprise/jre/bin;C:/KonyVisualizerEnterprise7.3.0/Kony_Visualizer_Enterprise/jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\runtime\win64;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\polyspace\bin;C:\Program Files\Java\jdk1.8.0_65\bin;C:\FPC\3.0.2\bin\i386-Win32;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Users\almirakhonsa\Anaconda3;C:\Users\almirakhonsa\Anaconda3\Scripts;C:\Users\almirakhonsa\Anaconda3\Library\bin;C:\Users\almirakhonsa\AppData\Local\Microsoft\WindowsApps;C:\Users\almirakhonsa\AppData\Roaming\Composer\vendor\bin;;C:\KonyVisualizerEnterprise7.3.0\ImageMagick;C:\KonyVisualizerEnterprise7.3.0\Ant\bin;G:\Android SDK Tools 25.2.5\platform-tools;G:\Android SDK Tools 25.2.5\tools;C:\KonyVisualizerEnterprise7.3.0\Java\jdk1.8.0_112\bin;C:\KonyVisualizerEnterprise7.3.0\Kony_Visualizer_Enterprise;;.
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:41:27.660
+!MESSAGE DYLD_LIBRARY_PATH(Only in Mac)->null
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:41:27.676
+!MESSAGE JAVACEF_PATH->C:\KonyVisualizerEnterprise7.3.0/Kony_Visualizer_Enterprise
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:41:27.697
+!MESSAGE Invoking windows configure libs
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:41:30.932
+!MESSAGE Chrome lib location->C:\KonyVisualizerEnterprise7.3.0\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\469\1\.cp\win64_build\third_party\chromium_loader
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:41:31.001
+!MESSAGE CEF lib location->C:\KonyVisualizerEnterprise7.3.0\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\469\1\.cp\win64_build\third_party\cef_runtime\win64
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:41:31.016
+!MESSAGE java.library.path->C:\KonyVisualizerEnterprise7.3.0\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\469\1\.cp\win64_build\third_party\chromium_loader;C:\KonyVisualizerEnterprise7.3.0\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\469\1\.cp\win64_build\third_party\cef_runtime\win64
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:41:31.032
+!MESSAGE fieldSysPath->private static java.lang.String[] java.lang.ClassLoader.sys_paths
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:41:31.048
+!MESSAGE java.library.path configured
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:41:31.063
+!MESSAGE Invoking chromebrowser.embed()
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:41:36.925
+!MESSAGE Invoking vide init()
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:41:37.584
+!MESSAGE Invoking vide initiated
+
+!ENTRY com.pat.tool.keditor 1 0 2017-09-13 19:44:57.660
+!MESSAGE [node console]Initial scan complete. Ready for changes.
